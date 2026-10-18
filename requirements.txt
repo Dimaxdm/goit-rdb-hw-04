@@ -1,0 +1,12 @@
+# Python dependencies for hw04_olist.ipynb
+# PostgreSQL itself is a system package (installed in the notebook via `apt-get install postgresql`).
+
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+pandas>=2.0
+ipython-sql>=0.5.0       # %sql / %%sql magic
+prettytable>=3.12        # %sql output style '_DEPRECATED_DEFAULT'
+kagglehub>=0.3           # Olist download from Kaggle
+
+# Local run only (Colab already has these)
+jupyter
